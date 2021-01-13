@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{d96a9693-2668-4319-8635-df1204717857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="share">
+      <UniqueIdentifier>{01c1f17e-d804-4308-8d61-f1e392fd576d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="share\tinyxml">
+      <UniqueIdentifier>{9cb96eec-9626-4ecb-9c6d-ca0917362742}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\md5.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinystr.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinyxml.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlerror.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlparser.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\INetBase.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\ShareFunction.cpp">
+      <Filter>share</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\share\tinyxml\md5.h">
+      <Filter>share\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\tinyxml\tinystr.h">
+      <Filter>share\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\tinyxml\tinyxml.h">
+      <Filter>share\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\IDefine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\INetBase.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\ShareFunction.h">
+      <Filter>share</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
